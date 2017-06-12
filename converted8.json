@@ -1,0 +1,19 @@
+[{
+        "lang": "en",
+        "msg1": "hi",
+        "msg2": "we",
+        "msg3": ""
+    },
+    {
+        "lang": "es",
+        "msg1": "hola",
+        "msg2": "wa",
+        "msg3": ""
+    },
+    {
+        "lang": "fr",
+        "msg1": "bonjour",
+        "msg2": "wu",
+        "msg3": ""
+    }
+]
