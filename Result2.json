@@ -1,0 +1,119 @@
+{
+    "nsYes": {
+        "en": "and set to the Wix name servers.",
+        "es": "y están apuntando correctamente a los servidores de nombre de Wix.",
+        "fr": "fr1"
+    },
+    "nsNo": {
+        "en": "and not all set to the Wix Name Servers. Click to <a faq>connect your domain to the Wix name servers</a>. (Unless you intended to <a faq2>connect your domain to Wix via pointing</a>).",
+        "es": "y no están apuntando a los servidores de nombre de Wix. Haz clic en <a faq>conectar tu dominio a los servidores de nombre de Wix</a>. (A menos de que desees <a faq2>conectar tu dominio a Wix por apuntamiento</a>).",
+        "fr": "fr2"
+    },
+    "nsTotal": {
+        "en": {
+            "singular": "The domain's NS record is",
+            "plural": "The domain's NS record are",
+            "missing": "The domain's NS records are missing"
+        },
+        "es": {
+            "singular": "Los registros NS de tu dominio es",
+            "plural": "Los registros NS de tu dominio son",
+            "missing": "Los registros NS de tu dominio son no se encuentran"
+        },
+        "fr": {
+            "singular": "fr3",
+            "plural": "fr4",
+            "missing": "fr5"
+        }
+    },
+    "aYes": {
+        "en": "The domain's A record is set correctly.<br>",
+        "es": "El registro A del dominio está configurado correctamente.<br>",
+        "fr": "fr6"
+    },
+    "aNo": {
+        "en": "A NO",
+        "es": "A NO ES",
+        "fr": "fr7"
+    },
+    "aTotal": {
+        "en": {
+            "singular": "The domain's A record is",
+            "plural": "The domain's A record are",
+            "instructions": "<p> It is not set correctly, and you need to update it.</p><ul><li>If you are using Wix nameservers, click to <a href>update your domain's A record</a>.</li><li> If your domain is connected to your Wix site via Pointing, please contact your domain host directly to change your A record.</li></ul>",
+            "missing": "The domain's A record are missing"
+        },
+        "es": {
+            "singular": "El registro A del dominio es",
+            "plural": "Los registros A del dominio son",
+            "instructions": "<p> No está configurado correctamente y necesitas actualizarlos.</p><ul><li>Si estas utilizando los servidores de nombre de Wix, haz clic en <a href>actualizar los registros A de tu dominio</a>.</li><li> Si tu dominio está conectado a tu sitio Wix por apuntamiento, por favor contacta a tu alojador de dominio directamente para poder cambiar el registro A.</li></ul>",
+            "missing": "Los registros A del dominio no se encuentran"
+        },
+        "fr": {
+            "singular": "fr8",
+            "plural": "fr9",
+            "instructions": "fr10",
+            "missing": "fr11"
+        }
+    },
+    "cnameYes": {
+        "en": "and set correctly.",
+        "es": "y están configurados correctamente.",
+        "fr": "fr12"
+    },
+    "cnameNo": {
+        "en": "and not set correctly, and you need to update them: <ul><li>If you are using Wix Name Servers, click to <a faq>update your domain's CNAME records</a>.</li><li>If your domain is connected to your Wix site via Pointing, please contact your domain host directly to change your CNAME records.</li></ul>",
+        "es": "y no están configurados correctamente, necesitas actualizarlos: <ul><li>Si estas utilizando los servidores de nombre de Wix, haz clic en <a faq>actualizar los registros CNAME de tu dominio</a>.</li><li>Si tu dominio está conectado a tu sitio Wix por apuntamiento, por favor contacta a tu alojador de dominio directamente para poder cambiar los registros CNAME.</li></ul>",
+        "fr": "fr13"
+    },
+    "cnameWWWloop": {
+        "en": "not set correctly, and you need to update them: To fix this issue, follow the steps at <a faq>Pointed Domain Appears with www.www</a>.",
+        "es": "no están configurados correctamente y necesitas actualizarlos: Para resolver este inconveniente, sigue estos pasos <a faq>Dominio conectado por apuntamiento aparece con www.www</a>.",
+        "fr": "fr14"
+    },
+    "cnameTotal": {
+        "en": {
+            "singular": "Your domain's CNAME records is",
+            "plural": "Your domain's CNAME records are",
+            "instructions": "Click to <a faq>update your domain's CNAME records.</a>",
+            "missing": "Your domain's CNAME records are missing"
+        },
+        "es": {
+            "singular": "El registro CNAME de tu dominio es",
+            "plural": "Los registros CNAME de tu dominio son",
+            "instructions": "Haz clic <a faq>para aprender a actualizar tus registros CNAME.</a>",
+            "missing": "Los registros CNAME de tu dominio no se encuentran"
+        },
+        "fr": {
+            "singular": "fr15",
+            "plural": "fr16",
+            "instructions": "fr17",
+            "missing": "fr18"
+        }
+    },
+    "failed": {
+        "en": "Our automated domain name record check failed. It is highly likely that your DNS records are not set correctly. Please try using <a dig>Dig</a> to lookup your DNS records and compare them to what we recommend <a faq>here</a>",
+        "es": "Nuestro verificador de dominios automatizado falló. Es probable que tus registros DNS no estén configurados correctamente. Por favor, intenta usando <a dig>Dig</a> para encontrar tus registros DNS y compararlos con los que Wix recomienda <a faq>aquí</a>",
+        "fr": "fr19"
+    },
+    "missing": {
+        "en": "missing",
+        "es": "no se encuentran",
+        "fr": "fr20"
+    },
+    "conflictingRecords": {
+        "en": "It appears the domain has conflicting NS records. Please double check the NS records at your domain registrar.",
+        "es": "Parece que el dominio tiene registros NS que entran conflicto. Comprueba por favor los registros NS con tu alojador de dominio.",
+        "fr": "fr21"
+    },
+    "changeRecords": {
+        "en": "Please change any incorrect records and wait at least two hours for any DNS changes you made to take affect.",
+        "es": "Por favor cambia los registros incorrectos y aguarda por lo menos dos horas para que los cambios en los registros DNS tengan efecto.",
+        "fr": "fr22"
+    },
+    "closingMessage": {
+        "en": "This concludes our automated checks. Please repeat this process again before contacting support.",
+        "es": "Este mensaje concluye las verificaciones automáticas. Por favor repite este proceso antes de contactar al Soporte de Wix.",
+        "fr": "fr23"
+    }
+}
